@@ -1,8 +1,5 @@
-# THREE.JS Datavisual
-A datavisual presentation using THREE.js
-
-## Demo
-[datavisual-threejs.netlify.com](https://datavisual-threejs.netlify.com/)
+# React / Redux / Saga 
+A baseline application with react, redux, saga
 
 ## Install
 
