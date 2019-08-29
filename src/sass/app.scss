@@ -1,0 +1,14 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+  
+body {
+  margin:0;
+  padding:0;
+  background:#191a1a;
+  color:#fff;
+  font-family: 'Roboto Mono', monospace;
+}
+
+canvas { width: 100%; height: 100% }
