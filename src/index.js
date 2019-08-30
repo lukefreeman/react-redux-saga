@@ -8,7 +8,7 @@ import ReactDOM from 'react-dom';
 
 import reducers from './reducers';
 import App from './App';
-import mySaga from './sagas';
+import rootSaga from './sagas';
 
 const sagaMiddleware = createSagaMiddleware();
 
@@ -18,7 +18,7 @@ const createStoreWithMiddleware = composeWithDevTools(applyMiddleware(
 
 const store = createStoreWithMiddleware(reducers);
 
-sagaMiddleware.run(mySaga);
+sagaMiddleware.run(rootSaga);
 
 ReactDOM.render( 
     <Provider store={store}>

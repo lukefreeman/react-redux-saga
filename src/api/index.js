@@ -1,10 +1,7 @@
-import axios from 'axios';
-const api = `https://jsonplaceholder.typicode.com`;
+import {users} from './users';
 
-export default {
-
-    fetchUser: (id) => {
-        return axios.get(`${api}/users/${id}`);
-    }
-
+const Api = {
+    users
 }
+
+export default Api;
