@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import { fetchUser } from './actions/users';
-
-import Panel from './components/panel';
+import GeoSpacial from './utils/GeoSpacial.utils';
 
 import './sass/app.scss';
 
@@ -10,8 +9,7 @@ class App extends Component {
 
     constructor() {
         super();
-        this.myVar = "test";
-    }  
+    }
 
     /**
     * ----------------------------------------------------------------------
@@ -29,11 +27,10 @@ class App extends Component {
     */
     render() {
         return (
-            <div>
-                <Panel id={this.props.users.user.id} />
-            </div>
+            <div/>
         );
-    }  
+    }
+      
 }
 
 function mapStateToProps(state){
