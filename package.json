@@ -67,7 +67,7 @@
     "stats.js": "^0.17.0",
     "style-loader": "^1.0.0",
     "styled-components": "^4.2.1",
-    "three": "^0.105.2",
+    "three": "^0.125.0",
     "three-orbit-controls": "^82.1.0"
   }
 }
